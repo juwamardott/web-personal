@@ -13,7 +13,6 @@ import {
   MapPin,
   Calendar,
 } from "lucide-react";
-import passpoto from "./assets/passpoto.webp";
 
 const Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -182,7 +181,7 @@ const Portfolio = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
             <img
-              src={passpoto}
+              src="./assets/passpoto.webp"
               alt="I Gede Juwa Mardood"
               className="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto mb-6 border-4 border-blue-400 shadow-lg"
             />
