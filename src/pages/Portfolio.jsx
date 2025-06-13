@@ -103,10 +103,10 @@ const Portfolio = () => {
     "JavaScript",
     "React",
     "Node.js",
-    "Python",
-    "MongoDB",
+    "Java",
+    "MySql",
     "PostgreSQL",
-    "Express.js",
+    "Laravel",
     "Tailwind CSS",
     "Git",
     "Docker",
@@ -127,7 +127,7 @@ const Portfolio = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-              JM
+              .Dott
             </div>
 
             {/* Desktop Navigation */}
@@ -179,17 +179,18 @@ const Portfolio = () => {
         className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8"
       >
         <div className="max-w-4xl mx-auto text-center">
-          <div className="mb-8 mt-20 lg:mt-10">
+          <div className="mb-8 mt-20 lg:mt-10 ">
             <img
-              src="/passpoto.webp"
+              src="/foto.png"
               alt="I Gede Juwa Mardood"
-              className="w-52 h-52 lg:w-48 lg:h-48 md:w-40 md:h-40 rounded-full mx-auto mb-6 border-4 border-blue-400 shadow-lg"
+              className="w-64 h-64 lg:w-72 lg:h-72 md:w-40 md:h-40 rounded-full mx-auto mb-6 border-4 border-blue-400 shadow-lg -rotate-2 bg-white"
             />
           </div>
 
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">
+          <h1 className="text-2xl md:text-6xl font-bold mb-4">
             <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-400 bg-clip-text text-transparent">
               I Gede Juwa Mardood
+              <span className="text-lg lg:text-5xl">, S.Kom</span>
             </span>
           </h1>
 
