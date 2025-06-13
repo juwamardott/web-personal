@@ -179,11 +179,11 @@ const Portfolio = () => {
         className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8"
       >
         <div className="max-w-4xl mx-auto text-center">
-          <div className="mb-8">
+          <div className="mb-8 mt-20 lg:mt-10">
             <img
               src="/passpoto.webp"
               alt="I Gede Juwa Mardood"
-              className="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto mb-6 border-4 border-blue-400 shadow-lg"
+              className="w-52 h-52 lg:w-48 lg:h-48 md:w-40 md:h-40 rounded-full mx-auto mb-6 border-4 border-blue-400 shadow-lg"
             />
           </div>
 
@@ -357,15 +357,15 @@ const Portfolio = () => {
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a
-                href="mailto:juwa.mardood@example.com"
+                href="mailto:juwamardood@gmail.com"
                 className="flex items-center gap-3 bg-gray-800 hover:bg-gray-700 px-6 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 border border-gray-700 hover:border-blue-400"
               >
                 <Mail className="text-blue-400" size={24} />
-                <span>juwa.mardood@example.com</span>
+                <span>juwamardood@gmail.com</span>
               </a>
 
               <a
-                href="https://linkedin.com/in/juwa-mardood"
+                href="https://linkedin.com/in/juwamardott"
                 className="flex items-center gap-3 bg-gray-800 hover:bg-gray-700 px-6 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 border border-gray-700 hover:border-blue-400"
               >
                 <Linkedin className="text-blue-400" size={24} />
@@ -373,7 +373,7 @@ const Portfolio = () => {
               </a>
 
               <a
-                href="https://github.com/juwa-mardood"
+                href="https://github.com/juwamardott"
                 className="flex items-center gap-3 bg-gray-800 hover:bg-gray-700 px-6 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 border border-gray-700 hover:border-blue-400"
               >
                 <Github className="text-blue-400" size={24} />
