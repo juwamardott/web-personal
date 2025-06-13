@@ -12,6 +12,7 @@ import {
   Phone,
   MapPin,
   Calendar,
+  GraduationCap,
 } from "lucide-react";
 
 const Portfolio = () => {
@@ -181,27 +182,20 @@ const Portfolio = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8 mt-20 lg:mt-10 ">
             <img
-              src="/foto.png"
+              src="/passpoto.webp"
               alt="I Gede Juwa Mardood"
-              className="w-64 h-64 lg:w-72 lg:h-72 md:w-40 md:h-40 rounded-full mx-auto mb-6 border-4 border-blue-400 shadow-lg -rotate-2 bg-white"
+              className="w-52 h-52 lg:w-72 lg:h-72 md:w-40 md:h-40 rounded-full mx-auto mb-6 border-4 border-blue-400 shadow-lg -rotate-2 bg-white"
             />
           </div>
 
-          <h1 className="text-2xl md:text-6xl font-bold mb-4">
+          <h1 className="text-3xl md:text-6xl font-bold mb-1">
             <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-400 bg-clip-text text-transparent">
               I Gede Juwa Mardood
-              <span className="text-lg lg:text-5xl">, S.Kom</span>
             </span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-gray-300 mb-6">
-            Software Engineer
-          </p>
-
           <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto">
-            Passionate about creating innovative web solutions and bringing
-            ideas to life through code. Specialized in modern JavaScript
-            frameworks and full-stack development.
+            “Code it. Break it. Fix it. Repeat.”
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -247,6 +241,12 @@ const Portfolio = () => {
                 <div className="flex items-center">
                   <Briefcase className="mr-3 text-blue-400" size={18} />
                   <span>Role: Software Engineer</span>
+                </div>
+                <div className="flex items-center">
+                  <GraduationCap className="mr-3 text-blue-400" size={18} />
+                  <span>
+                    Graduate of : Institut Bisnis & Teknologi (INSTIKI)
+                  </span>
                 </div>
               </div>
 
