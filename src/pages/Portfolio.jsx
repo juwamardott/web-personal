@@ -244,9 +244,7 @@ const Portfolio = () => {
                 </div>
                 <div className="flex items-center">
                   <GraduationCap className="mr-3 text-blue-400" size={18} />
-                  <span>
-                    Graduate of : Institut Bisnis & Teknologi (INSTIKI)
-                  </span>
+                  <span>Graduate of : INSTIKI</span>
                 </div>
               </div>
 
