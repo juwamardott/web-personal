@@ -182,9 +182,9 @@ const Portfolio = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8 mt-20 lg:mt-10 ">
             <img
-              src="/passpoto.webp"
+              src="/poto.png"
               alt="I Gede Juwa Mardood"
-              className="w-52 h-52 lg:w-72 lg:h-72 md:w-40 md:h-40 rounded-full mx-auto mb-6 border-4 border-blue-400 shadow-lg -rotate-2 bg-white"
+              className="w-64 h-96 lg:w-80 lg:h-96 md:w-40 md:h-40 rounded-full mx-auto mb-6  shadow-lg -rotate-2"
             />
           </div>
 
